@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+}
+
+li{
+    list-style: none;    
+}
+
+.menu{
+    border: 1px solid black;
+    width: 150px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.dropdown:hover .sublist{
+   display: block;
+}
+
+.sublist {
+    display: none;
+    width: 100%;
+}
+
+.sublist li{
+    border-bottom: 1px solid black;
+}
+
+.sublist li:last-child{
+    border-bottom: 0px;
+}
+
+.sublist li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.sublist li:hover {
+    background-color: #eee;
+}
