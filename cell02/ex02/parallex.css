@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallex{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+     height: 100vh; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallex p{
+    color: white;
+}
+
+.img_container{
+    width: 100%;
+}
+
+.img_first{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/892/692/922/howl-s-moving-castle-studio-ghibli-fantasy-art-clouds-daylight-hd-wallpaper-preview.jpg");
+}
+
+.img_last{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/45/141/247/studio-ghibli-spirited-away-chihiro-hayao-miyazaki-wallpaper-preview.jpg");
+}
+
+.black_container{
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black_container p{
+    color: white;
+}
+
