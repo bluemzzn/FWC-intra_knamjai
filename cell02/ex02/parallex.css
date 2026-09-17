@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 
-.parallex{
+.parallax{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 
-     height: 100vh; 
+    height: 100vh; 
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.parallex p{
+.parallax p{
     color: white;
 }
 
