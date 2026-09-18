@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanakrit CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../tailwind.css">
+</head>
+<body class="font-['Open_Sans']">
+    <nav class="sticky top-4 z-10 mx-auto mt-4 flex w-fit gap-6 rounded-full border px-6 py-3 text-sm font-medium">
+        <a href="#vita">Vita</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="vita" class="mx-auto grid max-w-5xl items-center gap-12 px-6 py-24 md:grid-cols-[1fr_18rem]">
+        <img class="w-48 rounded-2xl object-cover md:order-2 md:w-full" draggable="false" src="assets/avatar.jpg" alt="Tanakrit Incham">
+        <div>
+            <h3 class="text-4xl font-bold">Tanakrit Incham, BSc</h3>
+            <p class="mt-8 max-w-3xl text-lg leading-8">I am an undergraduate student at school of Information Technology, King Mongkut's Institute of Technology Ladkrabang (KMITL), Thailand. My academic interests include software engineering, artificial intelligence, large language models, cybersecurity, cloud, and full stack development. My current research focuses on fine-tuning large language-models for repository-level software engineering tasks.</p>
+            <p class="mt-4 max-w-3xl leading-7">Besides my academic works, I'm also currently working on my own technology business alongside my studies.</p>
+        </div>
+    </section>
+    <section id="projects" class="mx-auto max-w-5xl border-t px-6 py-20">
+        <div class="border-b pb-12">
+            <h2 class="text-3xl font-bold ">Publications</h2>
+            <h5 class="mt-6 text-xl font-semibold">A Repository-Aware Instruction Tuning Framework for Repository-Level Software Engineering Reasoning</h5>
+            <p class="mt-3 max-w-3xl leading-7">(In progress) This research explores how large language-models can better understand and reason about large software repositories. It focuses on improving repository-level software engineering capabilities, where models need to work with broader codebase context rather than isolate files or snippets.</p>
+        </div>
+        <div class="border-b py-12">
+            <h2 class="mb-6 text-3xl font-bold ">Projects</h2>
+            <div id="card" class="mb-4 rounded-2xl border p-6">
+                <h1 class="text-xl font-semibold ">NFC Door Access System</h1>
+                <p class="mt-2 leading-7">A hybrid dormitory access system that allows resident to unlock doors using either an NFC keycard or a one-time password (OTP)</p>
+                <a class="hover:bg-black hover:text-white mt-4 inline-block rounded-full border px-4 py-2 text-sm font-medium" href="https://www.github.com/Serried/Axentry">GitHub</a>
+            </div>
+            <div id="card" class="rounded-2xl border p-6">
+                <h1 class="text-xl font-semibold ">Full-Stack School Management Website</h1>
+                <p class="mt-2 leading-7">A web application for administration in schools.</p>
+                <a class="hover:bg-black hover:text-white mt-4 inline-block rounded-full border px-4 py-2 text-sm font-medium" href="https://www.github.com/Serried/Classora">GitHub</a>
+            </div>
+        </div>
+        <div class="border-b py-12">
+            <h2 class="mb-6 text-3xl font-bold ">Certifications</h2>
+            <div id="card" class="mb-4 rounded-2xl border p-6">
+                <img>
+                <h1 class="text-xl font-semibold ">ISC2 Certified in Cybersecurity</h1>
+                <a class="hover:bg-black hover:text-white mt-4 inline-block rounded-full border px-4 py-2 text-sm font-medium cursor-pointer" href="https://www.credly.com/earner/earned/badge/2f30e0a6-869d-4cc4-a9f8-40c3ec8fe5b2">Validation</a>
+            </div>
+            <div id="card" class="rounded-2xl border p-6">
+                <img>
+                <h1 class="text-xl font-semibold ">(In progress) Cisco Certified Network Associate</h1>
+                <a class="mt-4 inline-block rounded-full border px-4 py-2 text-sm font-medium">Unavailable</a>
+            </div>
+        </div>
+        <div class="pt-12">
+            <h2 class="mb-6 text-3xl font-bold ">Miscellaneous</h2>
+            <div id="card" class="p-6">
+                <img>
+                <p class="text-xl font-semibold ">Yes. I lift too.</p>
+                <p class="mt-3 max-w-3xl leading-7">I'm a seasoned weight lifter with nearly six years of training experience, currently focuses on strength and hypertrophy. I also offer a personal training for people who want to build muscle, get stronger, and train with a more structure approach. Feel free to reach out if interested</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="mx-auto grid max-w-5xl gap-6 border-t px-6 py-20 md:grid-cols-2">
+        <h1 class="text-3xl font-bold md:col-span-2">Contact</h1>
+        <div class="p-6">
+            <h1 class="text-2xl font-bold">Address:</h1>
+            <div class="mt-4 space-y-1 leading-7">
+                <a class="text-indigo-400" href="https://dsmlr.it.kmitl.ac.th/">Data Science & Machine Learning Research Laboratory (Room 503)</a>
+                <p>School of Information Technology</p>
+                <p>King Mongkut's Institute of Technology Ladkrabang</p>
+                <p>No. 1, Chalong Krung 1 Alley, Chalong Krung Road</p>
+                <p>Lad Krabang Sub-district, Lat Krabang District</p>
+                <p>Bangkok 10520</p>
+                <p>Thailand</p>
+            </div>
+        </div>
+        <div class="p-6">
+            <h1 class="text-2xl font-bold">Social network:</h1>
+            <ul class="mt-4 list-disc space-y-2 pl-5">
+                <a href="https://www.facebook.com/tanakrit.incham.5">
+                    <li>Facebook</li>
+                </a>
+                <a href="https://www.linkedin.com/in/serried/">
+                    <li>LinkedIn</li>
+                </a>
+                <a href="https://www.instagram.com/itirkanat/">
+                    <li>Instagram</li>
+                </a>
+            </ul>
+        </div>-
+        <div class="pt-6 md:col-span-2">
+            <h1 class="text-2xl font-bold">Countries visited:</h1>
+            <p class="mt-2">I have visited 7 cities in 5 countries.</p>
+            <img class="mt-6 h-auto w-full" src="assets/RyuuTravelMap.png" alt="World map showing places visited">
+        </div>
+    </section>
+    <footer class="mx-auto max-w border-t px-6 py-8 text-center text-sm bg-black text-white">
+        <p>&copy; 2026 Tanakrit Incham. All rights reserved.</p>
+    </footer>
+</body>
+</html>
